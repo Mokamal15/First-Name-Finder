@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First Name Finder</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>First Name Finder</h1>
+
+  <form onsubmit="findFirstElement(event)">
+    <label for="names">Names (comma-separated):</label>
+    <input type="text" id="names" required>
+
+    <input type="submit" value="Find">
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
